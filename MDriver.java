@@ -12,9 +12,9 @@ public class MDriver {
 
 		Job j = new Job();
 		j.setJobName("Count Frequency");
-		j.setJarByClass(Driver.class);
-		j.setMapperClass(MyMapper.class);
-		j.setReducerClass(MyReducer.class);
+		j.setJarByClass(MDriver.class);
+		j.setMapperClass(MyMapperM.class);
+		j.setReducerClass(MyReducerM.class);
 		j.setOutputKeyClass(Text.class);
 		j.setOutputValueClass(IntWritable.class);
 
